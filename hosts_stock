@@ -1,0 +1,5 @@
+127.0.0.1       localhost
+::1             ip6-localhost
+127.0.0.1 ota.googlezip.net
+127.0.0.1 ota-cache1.googlezip.net
+127.0.0.1 ota-cache2.googlezip.net
