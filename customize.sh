@@ -1,7 +1,7 @@
 #!/system/bin/sh
 
 #
-# Systemless Hosts by the
+# Systemless Hosts by akshayalix
 # open source loving GL-DP and all contributors;
 # Consolidating and extending hosts files from several well-curated sources
 #
