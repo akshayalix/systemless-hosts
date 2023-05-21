@@ -7,9 +7,9 @@ for /f "tokens=2 delims=<> " %%a in ('find "version=Version" ^< "module.prop" ')
 echo ^>^> Creating zip file
 
 if exist "C:\Program Files\7-Zip\7z.exe" (
-  "C:\Program Files\7-Zip\7z.exe" a -tzip "Systemless-Hosts v%version%.zip" * -x!build.bat -x!README.md
+  "C:\Program Files\7-Zip\7z.exe" a -tzip "Systemless-Hosts v%version%.zip" * -x!.git -x!build.bat -x!README.md
 ) else if exist "C:\Program Files (x86)\7-Zip\7z.exe" (
-  "C:\Tools\7z.exe" a -tzip "Systemlless-Hosts v%version%.zip" * -x!build.bat -x!README.md
+  "C:\Tools\7z.exe" a -tzip "Systemlless-Hosts v%version%.zip" * -x!.git -x!build.bat -x!README.md
 ) else (
   echo ERROR^: 7zip executable not found! Please install it from https://www.7-zip.org/download.html
   exit /b 1
