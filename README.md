@@ -4,8 +4,9 @@
 
 ## Overview
 
-- An efficient ad blocker, with no user interface
-- Support Magisk Live or Custom Recovery installations
+- An efficient ad blocker with hosts.
+- Must be rooted.
+- Magisk + KernelSU support.
 
 ---
 
