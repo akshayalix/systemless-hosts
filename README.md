@@ -10,10 +10,6 @@
 
 ---
 
-## Change Log
-
----
-
 ## Extras
 
 - Source Code: <https://github.com/akshayalix/systemless-hosts>
